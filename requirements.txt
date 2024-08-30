@@ -1,0 +1,9 @@
+Markdown==3.6
+markdown-it-py==3.0.0
+pandas==2.1.4
+scikit-base==0.7.8
+scikit-learn==1.4.2
+scikit-learn-intelex==2024.6.0
+scikit-optimize==0.10.2
+scikit-plot==0.3.7
+streamlit==1.37.1
