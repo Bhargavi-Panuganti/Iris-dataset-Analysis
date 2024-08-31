@@ -48,6 +48,7 @@ st.markdown(
     <style>
     .main {
         background-image:url('https://miro.medium.com/v2/resize:fit:1400/0*VucNhXeY_YFMwHOZ');
+        background-position:cover;
     }
     </style>
     """,
