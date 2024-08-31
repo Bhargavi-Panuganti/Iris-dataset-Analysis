@@ -46,8 +46,11 @@ df = user_input_features()
 st.markdown(
     """
     <style>
-    body {
+    .main {
         background-color: red;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
     }
     </style>
     """,
