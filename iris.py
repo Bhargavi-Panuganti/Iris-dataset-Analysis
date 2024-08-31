@@ -14,16 +14,7 @@ st.set_page_config(
 )
 
 # Apply CSS for the background color
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: red;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+
 
 # Load the iris dataset
 iris = load_iris()
@@ -52,7 +43,16 @@ def user_input_features():
 
 # Get user input
 df = user_input_features()
-
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: red;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 # Display user input
 st.subheader('User Input Features')
 st.write(df)
