@@ -47,10 +47,7 @@ st.markdown(
     """
     <style>
     .main {
-        background-color: red;
-        height: 100vh;
-        padding: 0;
-        margin: 0;
+        background-image:url('https://miro.medium.com/v2/resize:fit:1400/0*VucNhXeY_YFMwHOZ');
     }
     </style>
     """,
